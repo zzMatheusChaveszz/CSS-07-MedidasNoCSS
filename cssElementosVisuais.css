@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(20, 40, 77);
+    background-image: url('star.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 88vh;
+    text-align: center;
+    padding: 0 20px; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(48, 42, 121);
+    text-align: center;
+    border: 2px solid rgb(10, 123, 253);
+    padding: 0px 20px;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+    alt: "avengers";
+    height: 240px;
+    width: 320px; 
+}
+
+figure {
+    margin-left: 33vh;
+    margin-top: 22vh;
+    width: 320px;
+    padding: 6px;
+    border: 3px solid #ffffff;
+    background-color: #00ccff;
+}
+
+figcaption {
+    text-align: center;
+    background-color: #493fd6;
+    color: #ffffff;
+    border-radius: 100%;
+    margin-left: 11vh;
+    margin-right: 11vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(48, 42, 121);
+    font-size: 18px;
+    color: white; 
+    border: 2px solid rgb(10, 123, 253);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+}
